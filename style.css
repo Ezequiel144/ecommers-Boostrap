@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+    top: 0.1px;
+    z-index: 10;
+}
+
+.navbar-toggler{
+    color: rgb(253, 64, 64);
+}
+
+.carousel-inner{
+    max-height: 550px;
+}
+
+.d-block{
+    object-fit: cover;
+}
+
+.section2{
+    padding: 30px 20px;
+    
+}
+
+.btn{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+.section2{
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.card{
+    /* border: 1px solid orangered; */
+    
+    width: 280px;
+    margin: 0 auto;       
+}
+
+
+/* .nav-item:hover{
+    background-color: brown;
+} */
+
+
+.catshop{
+    display: none;
+    background-color: white;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    position: fixed;
+    top: 40vh;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    width: 40%;
+    max-width: 340px;
+}
+
+.catshop__title{
+    padding: 5px;
+    width: 100%;
+    border-bottom: 1px solid rgb(185, 177, 177);
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: red;
+}
+.catshop__x{
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+.catshop__x:hover{
+    cursor: pointer;
+}
+
+.cartshop__prod{
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart{
+    width: 30px;
+}
+
+.cart:hover{
+    cursor: pointer;
+}
+
+.content__cart{
+    position: relative;
+}
+
+.content__cart__value{
+    font-size: 0.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    display: block;
+    position: absolute;
+    top: -8px;
+    left: 52%;
+    /* border: 1px solid black; */
+    padding: 0 5px;
+    border-radius: 10px;
+    background-color: white;
+}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <section class="catshop">
+        <h3 class="catshop__title">
+            carrito de compra 
+        </h3>
+        <svg class="catshop__x" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+        </svg>
+        <!-- <div class="cartshop__prod">
+            <img class="cartshop__prod__img" src="" alt="img">
+            <h5 class="cartshop__prod__title">remera</h5>
+            <p class="cartshop__prod__cart">0</p>
+        </div> -->
+    </section>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-danger">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light" href="#">Shop-Online</a>
+              <div class="content__cart">
+                <img class="cart mx-5" src="./img/carro-de-la-carretilla.png" alt="cart">
+                <p class="content__cart__value">0</p>
+              </div> 
+              <button class="navbar-toggler border-0 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+              </button>
+              <div class="collapse navbar-collapse mx-5" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contactos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- <h1 class="bs-danger">Logo</h1> -->
+    </header>
+    <main>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                <img src="./img/img1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="./img/img2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="./img/img3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="section2 ">
+            <!-- <h1 class="card-text text-center mb-4 text-">Remeras</h1>
+            <div class="card" style="width: 18rem;">
+                <img src="./img/prodrem.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Remera-zlog</h5>
+                  <a href="#" class="btn btn-danger">Agregar</a>
+                </div>
+            </div> -->
+            <!-- completamoscon jS -->    
+        </div>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
