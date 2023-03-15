@@ -59,7 +59,7 @@ header{
     /* border: 1px solid black; */
     border-radius: 10px;
     position: fixed;
-    top: 40vh;
+    top: 30vh;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
@@ -88,6 +88,8 @@ header{
     padding: 0 10px;
     display: flex;
     justify-content: space-between;
+    /* border: 1px solid red; */
+    padding: 10px;
 }
 
 .cart{
@@ -106,7 +108,7 @@ header{
     font-size: 0.8rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
-    display: block;
+    display: none;
     position: absolute;
     top: -8px;
     left: 52%;
@@ -114,4 +116,43 @@ header{
     padding: 0 5px;
     border-radius: 10px;
     background-color: white;
+}
+
+.cartshop__prod__title{
+    font-size: 1rem;
+    /* border: 1px solid greenyellow; */
+    margin: auto 0;
+}
+
+.cartshop__prod__img{
+    width: 30px;
+    height: 35px;
+}
+
+.cartshop__prod__delete{
+    width: 20px;
+    height: 20px;
+    margin: auto 0;
+}
+.cartshop__prod__delete:hover{
+    cursor: pointer;
+}
+
+.cartshop__prod__cant{
+    margin: auto 0;
+}
+
+.cartshop__prod__price{
+    margin: auto 0;
+}
+
+.catshop__total{
+    /* border: 1px solid blueviolet; */
+    border-top: 1px solid rgb(185, 177, 177);
+    padding: 0 10px;
+}
+.catshop__total__price{
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
 }
